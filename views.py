@@ -178,7 +178,7 @@ def is_now_season(sleep):
       season_end=9
     elif 10<=now_month and now_month<=12:
       season_start=10
-      season_end=9
+      season_end=12
 
     month=sleep.date.month
     if season_start<=month and month<=season_end:
